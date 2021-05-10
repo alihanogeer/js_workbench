@@ -1,0 +1,40 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+
+body{
+    background-color: rgb(160, 214, 182);
+   
+}
+
+.btn{
+    border-radius: 5px;
+    width: 65px;
+    height: 30px;
+    margin: 10px;
+    padding: 5px;
+    background-color:rgb(144, 167, 81);
+    font-weight: 600;
+    transform: translate(180%);
+  }
+  .btn:hover{
+      background-color: rgb(88, 112, 22);
+      cursor: pointer;
+  }
+
+  .tasks{
+      position: relative;
+      margin: 60px;
+      font-size: 20px;
+  }
+  .hdr--1{
+      padding: 10px;
+  }
+  .hdr--2{
+      padding: 10px;
+      color: rgb(80, 93, 214);
+      opacity: 65%;
+  }
